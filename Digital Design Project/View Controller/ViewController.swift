@@ -40,21 +40,21 @@ class ViewController: UIViewController {
         vertical.maximumRelativeValue = amount
         
         let verticalSkew = UIInterpolatingMotionEffect(keyPath: "layer.transform", type: .tiltAlongVerticalAxis)
-        verticalSkew.minimumRelativeValue = skewValue(-1)
-        verticalSkew.maximumRelativeValue = skewValue(1)
+        verticalSkew.minimumRelativeValue = skewValue(x: -1)
+        verticalSkew.maximumRelativeValue = skewValue(x: 1)
         
         let horizontalSkew = UIInterpolatingMotionEffect(keyPath: "layer.transform", type: .tiltAlongHorizontalAxis)
-        horizontalSkew.minimumRelativeValue = skewValue(-1)
-        horizontalSkew.maximumRelativeValue = skewValue(1)
+        horizontalSkew.minimumRelativeValue = skewValue(y: -1)
+        horizontalSkew.maximumRelativeValue = skewValue(y: 1)
         
         let group = UIMotionEffectGroup()
-        group.motionEffects = [horizontal, vertical, verticalSkew]
+        group.motionEffects = [horizontal, vertical, verticalSkew, horizontalSkew]
         view.addMotionEffect(group)
     }
     
-    func skewValue(_ value: CGFloat) -> CATransform3D {
+    func skewValue(x: CGFloat = 0, y: CGFloat = 0) -> CATransform3D {
         var transform = CATransform3DIdentity
         transform.m34 = 1 / 1000
-        return CATransform3DRotate(transform, 60 * CGFloat.pi / 180, value, 0, 0)
+        return CATransform3DRotate(transform, 60 * CGFloat.pi / 180, x, y, 0)
     }
 }
