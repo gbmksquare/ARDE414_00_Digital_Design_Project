@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
     
     @IBOutlet private weak var cardView: UIView!
+    @IBOutlet private weak var backgroundCardView1: UIView!
+    @IBOutlet private weak var backgroundCardView2: UIView!
 
     // MARK: - View
     override func viewDidLoad() {
@@ -25,6 +27,8 @@ class ViewController: UIViewController {
     // MARK: - Setup
     private func setup() {
         addParallax(to: cardView)
+        addParallax(to: backgroundCardView1)
+        addParallax(to: backgroundCardView2)
     }
     
     // MARK: - Action
