@@ -15,6 +15,11 @@
 		16DAD095229F7E2D00D09549 /* TranslationAndSkewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD094229F7E2D00D09549 /* TranslationAndSkewViewController.swift */; };
 		16DAD099229F814A00D09549 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD098229F814A00D09549 /* ScaleViewController.swift */; };
 		16DAD09C229F82CA00D09549 /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD09B229F82CA00D09549 /* GravityViewController.swift */; };
+		16EA644122B5EA590003053F /* MPParallaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA644022B5EA590003053F /* MPParallaxView.swift */; };
+		16EA644422B5EC580003053F /* MPParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA644322B5EC580003053F /* MPParallaxViewController.swift */; };
+		16EA644622B5EE4E0003053F /* MPParallaxImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA644522B5EE4E0003053F /* MPParallaxImageViewController.swift */; };
+		16EA644822B600DF0003053F /* MPParallaxAccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA644722B600DF0003053F /* MPParallaxAccelerometerViewController.swift */; };
+		16EA644A22B601920003053F /* MPParallaxImageAccelerometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA644922B601920003053F /* MPParallaxImageAccelerometerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		16DAD094229F7E2D00D09549 /* TranslationAndSkewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationAndSkewViewController.swift; sourceTree = "<group>"; };
 		16DAD098229F814A00D09549 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		16DAD09B229F82CA00D09549 /* GravityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
+		16EA644022B5EA590003053F /* MPParallaxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPParallaxView.swift; sourceTree = "<group>"; };
+		16EA644322B5EC580003053F /* MPParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPParallaxViewController.swift; sourceTree = "<group>"; };
+		16EA644522B5EE4E0003053F /* MPParallaxImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPParallaxImageViewController.swift; sourceTree = "<group>"; };
+		16EA644722B600DF0003053F /* MPParallaxAccelerometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPParallaxAccelerometerViewController.swift; sourceTree = "<group>"; };
+		16EA644922B601920003053F /* MPParallaxImageAccelerometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPParallaxImageAccelerometerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				16ABED702267F44100B002DB /* Application */,
 				16ABED722267F44900B002DB /* User Interface */,
 				16ABED712267F44600B002DB /* View Controller */,
+				16EA643F22B5EA360003053F /* Library */,
 				16ABED732267F45500B002DB /* Resource */,
 			);
 			path = "Digital Design Project";
@@ -84,6 +95,7 @@
 				16ABED602267F37700B002DB /* ViewController.swift */,
 				16DAD093229F7E0D00D09549 /* Motion */,
 				16DAD09A229F82B700D09549 /* Physics */,
+				16EA644222B5EC420003053F /* Vendors */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -119,6 +131,25 @@
 				16DAD09B229F82CA00D09549 /* GravityViewController.swift */,
 			);
 			path = Physics;
+			sourceTree = "<group>";
+		};
+		16EA643F22B5EA360003053F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				16EA644022B5EA590003053F /* MPParallaxView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		16EA644222B5EC420003053F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				16EA644322B5EC580003053F /* MPParallaxViewController.swift */,
+				16EA644722B600DF0003053F /* MPParallaxAccelerometerViewController.swift */,
+				16EA644522B5EE4E0003053F /* MPParallaxImageViewController.swift */,
+				16EA644922B601920003053F /* MPParallaxImageAccelerometerViewController.swift */,
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,10 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16EA644A22B601920003053F /* MPParallaxImageAccelerometerViewController.swift in Sources */,
+				16EA644822B600DF0003053F /* MPParallaxAccelerometerViewController.swift in Sources */,
 				16ABED612267F37700B002DB /* ViewController.swift in Sources */,
 				16ABED5F2267F37700B002DB /* AppDelegate.swift in Sources */,
+				16EA644622B5EE4E0003053F /* MPParallaxImageViewController.swift in Sources */,
 				16DAD099229F814A00D09549 /* ScaleViewController.swift in Sources */,
 				16DAD09C229F82CA00D09549 /* GravityViewController.swift in Sources */,
+				16EA644422B5EC580003053F /* MPParallaxViewController.swift in Sources */,
+				16EA644122B5EA590003053F /* MPParallaxView.swift in Sources */,
 				16DAD095229F7E2D00D09549 /* TranslationAndSkewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

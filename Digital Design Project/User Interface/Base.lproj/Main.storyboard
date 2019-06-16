@@ -219,6 +219,90 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="Vendor" id="8Tc-0a-F8c">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qgh-B2-DYn" style="IBUITableViewCellStyleDefault" id="kud-Dl-p6w">
+                                        <rect key="frame" x="0.0" y="399.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kud-Dl-p6w" id="yMk-vd-HtW">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MPParallaxView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qgh-B2-DYn">
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="egh-CB-2QY" kind="show" id="H7q-Tg-Dl2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="N5y-eD-fms" style="IBUITableViewCellStyleDefault" id="4Hs-Y0-gch">
+                                        <rect key="frame" x="0.0" y="443.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Hs-Y0-gch" id="VZH-5e-gKr">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MPParallaxView (Accelerometer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N5y-eD-fms">
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="WBc-o0-jLP" kind="show" id="fRd-f1-MwE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zZY-hr-2Y4" style="IBUITableViewCellStyleDefault" id="9bp-Q6-oeM">
+                                        <rect key="frame" x="0.0" y="487.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9bp-Q6-oeM" id="9tT-ZO-zIv">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MPParallaxView + Image" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zZY-hr-2Y4">
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2EO-8Z-PUw" kind="show" id="ehb-6z-rfE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="yDE-Cn-zNC" style="IBUITableViewCellStyleDefault" id="5xL-0S-BeV">
+                                        <rect key="frame" x="0.0" y="531.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5xL-0S-BeV" id="QGi-13-0hr">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="MPParallaxView + Image (Accelerometer)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yDE-Cn-zNC">
+                                                    <rect key="frame" x="20" y="0.0" width="356" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="GwP-1s-5di" kind="show" id="e5R-n2-db9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="xJC-Lf-V4R" id="tjM-p3-vXl"/>
@@ -329,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AGZ-yV-Mxz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2759" y="864"/>
+            <point key="canvasLocation" x="2090" y="1526"/>
         </scene>
         <!--Gravity View Controller-->
         <scene sceneID="wsq-VC-K2Z">
@@ -402,7 +486,161 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3448" y="864"/>
+            <point key="canvasLocation" x="2762" y="864"/>
+        </scene>
+        <!--Parallax View Controller-->
+        <scene sceneID="Jtb-iZ-BCi">
+            <objects>
+                <viewController id="egh-CB-2QY" customClass="MPParallaxViewController" customModule="Digital_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bZ7-ih-bdK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dxp-Zp-c7I" customClass="MPParallaxView" customModule="Digital_Design_Project" customModuleProvider="target">
+                                <rect key="frame" x="57" y="364.5" width="300" height="167"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uoA-6l-07v">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="167"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="uoA-6l-07v" firstAttribute="leading" secondItem="Dxp-Zp-c7I" secondAttribute="leading" id="9xf-on-Yxr"/>
+                                    <constraint firstAttribute="width" secondItem="Dxp-Zp-c7I" secondAttribute="height" multiplier="9:5" id="Com-Uo-pjb"/>
+                                    <constraint firstAttribute="bottom" secondItem="uoA-6l-07v" secondAttribute="bottom" id="NMn-W8-KsD"/>
+                                    <constraint firstAttribute="width" constant="300" id="UsQ-et-fed"/>
+                                    <constraint firstItem="uoA-6l-07v" firstAttribute="top" secondItem="Dxp-Zp-c7I" secondAttribute="top" id="lTI-GC-Gex"/>
+                                    <constraint firstAttribute="trailing" secondItem="uoA-6l-07v" secondAttribute="trailing" id="w8e-uw-91p"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Dxp-Zp-c7I" firstAttribute="centerX" secondItem="bZ7-ih-bdK" secondAttribute="centerX" id="YZs-SI-KTv"/>
+                            <constraint firstItem="Dxp-Zp-c7I" firstAttribute="centerY" secondItem="bZ7-ih-bdK" secondAttribute="centerY" id="bEH-Dr-LSf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qO5-wd-XSG"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="Dxp-Zp-c7I" id="ePO-sc-hm4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkO-wx-JYB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3445" y="864"/>
+        </scene>
+        <!--Parallax Image View Controller-->
+        <scene sceneID="Vjs-A8-Vyn">
+            <objects>
+                <viewController id="2EO-8Z-PUw" customClass="MPParallaxImageViewController" customModule="Digital_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W5j-tP-yKh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-ym-tgs" customClass="MPParallaxView" customModule="Digital_Design_Project" customModuleProvider="target">
+                                <rect key="frame" x="57" y="364.5" width="300" height="167"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Pm6-Nk-FYp"/>
+                                    <constraint firstAttribute="width" secondItem="4GM-ym-tgs" secondAttribute="height" multiplier="9:5" id="vTn-Up-B3J"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4GM-ym-tgs" firstAttribute="centerX" secondItem="W5j-tP-yKh" secondAttribute="centerX" id="fcP-19-yoI"/>
+                            <constraint firstItem="4GM-ym-tgs" firstAttribute="centerY" secondItem="W5j-tP-yKh" secondAttribute="centerY" id="qIt-oL-fW1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7VW-pd-Nnv"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="4GM-ym-tgs" id="NTm-Zl-Tkv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Heb-Lo-HFW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4161" y="864"/>
+        </scene>
+        <!--Parallax Accelerometer View Controller-->
+        <scene sceneID="dHH-tw-i5H">
+            <objects>
+                <viewController id="WBc-o0-jLP" customClass="MPParallaxAccelerometerViewController" customModule="Digital_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ju8-Oq-dWH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lbq-6B-npR" customClass="MPParallaxView" customModule="Digital_Design_Project" customModuleProvider="target">
+                                <rect key="frame" x="57" y="364.5" width="300" height="167"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBJ-GJ-Ksr">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="167"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="fBJ-GJ-Ksr" firstAttribute="top" secondItem="Lbq-6B-npR" secondAttribute="top" id="Fz6-fn-MQi"/>
+                                    <constraint firstAttribute="width" secondItem="Lbq-6B-npR" secondAttribute="height" multiplier="9:5" id="Oe0-hS-aEz"/>
+                                    <constraint firstAttribute="width" constant="300" id="T4N-Vr-kxa"/>
+                                    <constraint firstItem="fBJ-GJ-Ksr" firstAttribute="leading" secondItem="Lbq-6B-npR" secondAttribute="leading" id="TTv-5h-nr7"/>
+                                    <constraint firstAttribute="trailing" secondItem="fBJ-GJ-Ksr" secondAttribute="trailing" id="vxr-gY-t4c"/>
+                                    <constraint firstAttribute="bottom" secondItem="fBJ-GJ-Ksr" secondAttribute="bottom" id="w8K-eu-3fZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="accelerometerEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Lbq-6B-npR" firstAttribute="centerX" secondItem="ju8-Oq-dWH" secondAttribute="centerX" id="TpF-z4-47c"/>
+                            <constraint firstItem="Lbq-6B-npR" firstAttribute="centerY" secondItem="ju8-Oq-dWH" secondAttribute="centerY" id="gAZ-Dc-eHS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bQf-AL-iQN"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="Lbq-6B-npR" id="Z9S-6H-Lrr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0j9-Af-HZ5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3445" y="1519"/>
+        </scene>
+        <!--Parallax Image Accelerometer View Controller-->
+        <scene sceneID="Rfv-Fe-aXY">
+            <objects>
+                <viewController id="GwP-1s-5di" customClass="MPParallaxImageAccelerometerViewController" customModule="Digital_Design_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RUX-96-8nt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Saq-MQ-Pwk" customClass="MPParallaxView" customModule="Digital_Design_Project" customModuleProvider="target">
+                                <rect key="frame" x="57" y="364.5" width="300" height="167"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Saq-MQ-Pwk" secondAttribute="height" multiplier="9:5" id="ews-cg-PAw"/>
+                                    <constraint firstAttribute="width" constant="300" id="mlf-5n-N9m"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="accelerometerEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Saq-MQ-Pwk" firstAttribute="centerX" secondItem="RUX-96-8nt" secondAttribute="centerX" id="elc-D7-3D0"/>
+                            <constraint firstItem="Saq-MQ-Pwk" firstAttribute="centerY" secondItem="RUX-96-8nt" secondAttribute="centerY" id="pcD-e0-hAB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LgH-Vn-Rtl"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardView" destination="Saq-MQ-Pwk" id="g2p-Xs-avp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XmQ-FJ-yiO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4161" y="1525"/>
         </scene>
     </scenes>
 </document>
