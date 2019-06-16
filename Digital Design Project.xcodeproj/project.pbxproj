@@ -12,6 +12,9 @@
 		16ABED642267F37700B002DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ABED622267F37700B002DB /* Main.storyboard */; };
 		16ABED662267F37700B002DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16ABED652267F37700B002DB /* Assets.xcassets */; };
 		16ABED692267F37700B002DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ABED672267F37700B002DB /* LaunchScreen.storyboard */; };
+		16DAD095229F7E2D00D09549 /* TranslationAndSkewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD094229F7E2D00D09549 /* TranslationAndSkewViewController.swift */; };
+		16DAD099229F814A00D09549 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD098229F814A00D09549 /* ScaleViewController.swift */; };
+		16DAD09C229F82CA00D09549 /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DAD09B229F82CA00D09549 /* GravityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		16ABED652267F37700B002DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16ABED682267F37700B002DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16ABED6A2267F37700B002DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAD094229F7E2D00D09549 /* TranslationAndSkewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationAndSkewViewController.swift; sourceTree = "<group>"; };
+		16DAD098229F814A00D09549 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		16DAD09B229F82CA00D09549 /* GravityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				16ABED602267F37700B002DB /* ViewController.swift */,
+				16DAD093229F7E0D00D09549 /* Motion */,
+				16DAD09A229F82B700D09549 /* Physics */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -94,6 +102,23 @@
 				16ABED652267F37700B002DB /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		16DAD093229F7E0D00D09549 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				16DAD094229F7E2D00D09549 /* TranslationAndSkewViewController.swift */,
+				16DAD098229F814A00D09549 /* ScaleViewController.swift */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		16DAD09A229F82B700D09549 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				16DAD09B229F82CA00D09549 /* GravityViewController.swift */,
+			);
+			path = Physics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +194,9 @@
 			files = (
 				16ABED612267F37700B002DB /* ViewController.swift in Sources */,
 				16ABED5F2267F37700B002DB /* AppDelegate.swift in Sources */,
+				16DAD099229F814A00D09549 /* ScaleViewController.swift in Sources */,
+				16DAD09C229F82CA00D09549 /* GravityViewController.swift in Sources */,
+				16DAD095229F7E2D00D09549 /* TranslationAndSkewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
